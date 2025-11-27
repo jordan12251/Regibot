@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-bot-baileys-v7",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp avec Baileys v7 et pairing code",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "pino": "^8.16.0"
+  }
+}
